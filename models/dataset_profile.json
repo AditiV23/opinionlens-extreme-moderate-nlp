@@ -1,0 +1,88 @@
+{
+  "train_distribution": {
+    "Extreme Negative": 30245,
+    "Moderate Positive": 30058,
+    "Moderate Negative": 30014,
+    "Neutral / Mixed": 29861,
+    "Extreme Positive": 29822
+  },
+  "test_distribution": {
+    "Extreme Negative": 6097,
+    "Moderate Positive": 6017,
+    "Extreme Positive": 5985,
+    "Moderate Negative": 5958,
+    "Neutral / Mixed": 5943
+  },
+  "sample_training_examples": [
+    {
+      "text": "Fresh ingredients, nice service!  They have a few types if crepes you can get like pizza or deli.  Every veggie or fruit is cut up right there, not orepped, and you can see everything being made.  They also have thrifty ice cream and everything you order is custom! The owners work there and make the food and it's obvious that they care about their product.  Great for lunch!!",
+      "star_label": 4,
+      "star_level": 5,
+      "broad_category": "Extreme",
+      "detail_label": "Extreme Positive"
+    },
+    {
+      "text": "At first we were suspiciois about this place. Its located in a busness center and there were no cars in the parking lot. However, when we walked in - it was like we went into another world. We loved this place! Someone spent a lot of time in the finest details. Very unique concept. Even our boys (who dont like eating out) were entertained by the salt and pepper shakers, cups, paintings on walls, etc. They even enjoyed their time there. The food was excellent as well. Very tasty and fresh. Couldn't say enough good things - must try this fun, fresh and quaint place!  This place is great if your on a diet or you are just trying to pig out, highly recommended.",
+      "star_label": 3,
+      "star_level": 4,
+      "broad_category": "Moderate",
+      "detail_label": "Moderate Positive"
+    },
+    {
+      "text": "Whoa! This place is cool! It brings out my inner child.\\nI went in there a few months back with a couple friends and we sat in there and played with the legos. There are shelves and buckets of organized legos, and things that I never knew existed such as lego girl hair, something that would have really came in handy back when I played with legos on a more regular basis.",
+      "star_label": 3,
+      "star_level": 4,
+      "broad_category": "Moderate",
+      "detail_label": "Moderate Positive"
+    },
+    {
+      "text": "We stumbled upon the Skybox as a last minute find for a convenient and not too expensive restaurant for dinner one night.\\n\\nThe food can pretty much be summed up as \\\"sports bar & grill\\\" type food. We shared an order of hot wings and I personally ordered the fish tacos.  The wings were super spicy and a really decent portion size. The fish tacos were just ok, some of the fish was a little fishy tasting which always puts a damper on a meal. The rice that came with the tacos was really yummy though.\\n\\nThe meal still ended up being expensive! Four entrees, wings, and NO drinks came out to be $40 per person. Hot damn!\\n\\nWould not come back... not even out of dire desperation. :X",
+      "star_label": 1,
+      "star_level": 2,
+      "broad_category": "Moderate",
+      "detail_label": "Moderate Negative"
+    },
+    {
+      "text": "They didn't win Best Florists in the Valley for nothing! Barb was extremely helpful and professional. I had a pretty good idea of what kind of flowers I wanted for my wedding. I came into the shop knowing I wanted a professional florist to create my bridal bouquet and would just purchase flowers from another cheap florist to put my bridesmaids bouquets together myself in order to save some money. Barb offered great ideas on the bridesmaids bouquets for affordable prices. I was so pleased with her ideas and low prices I ended up ordering all my wedding flowers from them rather than making arrangements myself. They saved me the time, money and effort I would have otherwise put into it myself had I done it all DIY. Everyone there was so curteous. They even invited me to come in the day before my wedding to look at the flowers and make sure I was happy with everything. I wanted something very colorful and fall like for my bouquet and Barbara created the most beautiful bouquet. It turned out a lot better than I expected! \\n\\nThey are not limited to weddings either. They offer flower and arrangement delivery for special occassions as well. My husband, who is a romantic that sends me flowers quite often just because already has their number saved in his phone. I can't wait to receive another beautiful creation from them again! Truly a delight!",
+      "star_label": 4,
+      "star_level": 5,
+      "broad_category": "Extreme",
+      "detail_label": "Extreme Positive"
+    },
+    {
+      "text": "The first time I was ever here was with my book club. It is a little small for a group our size but that's my only complaint. I have been there a few times since then and always received good service and great food.  The desserts are AMAZING! This is one of my go to spots in Gilbert for a solo lunch or dinner.  I would give it 5 starts but I was reminded that just because I thought my waitress was really hot that didn't mean they get an extra star ; )",
+      "star_label": 3,
+      "star_level": 4,
+      "broad_category": "Moderate",
+      "detail_label": "Moderate Positive"
+    },
+    {
+      "text": "Came here with a huge birthday group and the staff were very accommodating and the service was quite fast. Ordered a bunch of the happy hour (3-6pm) menu items such as the Hummus (garlic and edemame) , Flatbread (chicken, cheese, mushrooms), and fish tacos. Also ordered a IPA from firestone, b/c I'm not a huge Wino. The food was quite good. I think my favorites were the Edemame hummus and the flatbread. The hummus was sweet and had a great texture. Fish tacos were so so as I've had better, but I'm not expecting much when I'm ordering seafood in the middle of the desert. \\n\\nI think it was a good find, but not sure if it will be my regular due to the fact that I'm not really a huge wine fan. Great service tho!",
+      "star_label": 2,
+      "star_level": 3,
+      "broad_category": "Moderate",
+      "detail_label": "Neutral / Mixed"
+    },
+    {
+      "text": "This place has to be one of the best pool parties that I've ever been too!!! \\n\\nOur group got a day bed and it was perfect for our group of 12. Only a few people laid on the bed because most everyone was either in the pool, dancing, or roaming around. The bottles took a little while to get to the table initially but once it got there, the waitress was great at keeping it flowing. \\n\\nThe place itself was huge so when the party got going it didn't feel crowded at all. We danced our a$$ off and had the best time of our lives. If you come to Vegas during pool season, YOU MUST PARTY HERE!",
+      "star_label": 4,
+      "star_level": 5,
+      "broad_category": "Extreme",
+      "detail_label": "Extreme Positive"
+    },
+    {
+      "text": "FYI..they say they deliver and even step you through delivery process offering menu and step by step process. After finishing order had to call with question and the girl informs me they don't deliver! Ugh...then please don't offer thru yelp. Emily informed me their website is under construction! Still think they should remove offer that they deliver at least on yelp.",
+      "star_label": 1,
+      "star_level": 2,
+      "broad_category": "Moderate",
+      "detail_label": "Moderate Negative"
+    },
+    {
+      "text": "These guys were cheap, fast and professional! I have taken several cars to them to look at \\\"issues\\\" we were having and every time they were great about letting us know what we need to do and most of the time it was something easy that we could save money on doing ourselves. Oil changes for $10... Can't beat that with a stick! Too bad our Mini came with a 3 year service plan or I would be going to them! It's kind of hard to find as it is hidden behind the strip mall... But it's totally worth it!",
+      "star_label": 2,
+      "star_level": 3,
+      "broad_category": "Moderate",
+      "detail_label": "Neutral / Mixed"
+    }
+  ]
+}

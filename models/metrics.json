@@ -1,0 +1,123 @@
+{
+  "project_name": "Extreme vs Moderate Opinion Identifier",
+  "dataset": "Yelp/yelp_review_full",
+  "training_rows": 150000,
+  "testing_rows": 30000,
+  "model": "TF-IDF n-grams + SGD Logistic Regression",
+  "training_seconds": 72.31,
+  "star_level_accuracy": 0.606,
+  "star_level_macro_f1": 0.6007,
+  "binary_extreme_moderate_accuracy": 0.7749,
+  "binary_extreme_moderate_macro_f1": 0.7698,
+  "binary_class_metrics": {
+    "Extreme": {
+      "precision": 0.698,
+      "recall": 0.7774,
+      "f1": 0.7356,
+      "support": 12082
+    },
+    "Moderate": {
+      "precision": 0.8375,
+      "recall": 0.7732,
+      "f1": 0.804,
+      "support": 17918
+    }
+  },
+  "five_level_classification_report": {
+    "Extreme Negative": {
+      "precision": 0.6950057736720554,
+      "recall": 0.7897326554042972,
+      "f1-score": 0.7393474088291747,
+      "support": 6097.0
+    },
+    "Moderate Negative": {
+      "precision": 0.5641127431520445,
+      "recall": 0.4770057066129574,
+      "f1-score": 0.5169152419061477,
+      "support": 5958.0
+    },
+    "Neutral / Mixed": {
+      "precision": 0.539061146717478,
+      "recall": 0.5236412586235908,
+      "f1-score": 0.5312393308296347,
+      "support": 5943.0
+    },
+    "Moderate Positive": {
+      "precision": 0.5301814375436148,
+      "recall": 0.5050689712481303,
+      "f1-score": 0.5173206230317474,
+      "support": 6017.0
+    },
+    "Extreme Positive": {
+      "precision": 0.669780977178741,
+      "recall": 0.7306599832915622,
+      "f1-score": 0.6988972350966917,
+      "support": 5985.0
+    },
+    "accuracy": 0.6060333333333333,
+    "macro avg": {
+      "precision": 0.5996284156527867,
+      "recall": 0.6052217150361076,
+      "f1-score": 0.6007439679386792,
+      "support": 30000.0
+    },
+    "weighted avg": {
+      "precision": 0.6000271726278357,
+      "recall": 0.6060333333333333,
+      "f1-score": 0.6013451882288182,
+      "support": 30000.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Extreme Negative",
+    "Moderate Negative",
+    "Neutral / Mixed",
+    "Moderate Positive",
+    "Extreme Positive"
+  ],
+  "confusion_matrix": [
+    [
+      4815,
+      998,
+      143,
+      46,
+      95
+    ],
+    [
+      1538,
+      2842,
+      1272,
+      191,
+      115
+    ],
+    [
+      365,
+      1013,
+      3112,
+      1156,
+      297
+    ],
+    [
+      100,
+      147,
+      1082,
+      3039,
+      1649
+    ],
+    [
+      110,
+      38,
+      164,
+      1300,
+      4373
+    ]
+  ],
+  "label_mapping": {
+    "1 star": "Extreme Negative",
+    "2 stars": "Moderate Negative",
+    "3 stars": "Neutral / Mixed",
+    "4 stars": "Moderate Positive",
+    "5 stars": "Extreme Positive",
+    "Project category": "Extreme = 1 or 5 stars; Moderate = 2, 3, or 4 stars"
+  }
+}
